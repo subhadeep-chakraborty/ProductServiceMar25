@@ -2,6 +2,7 @@ package dev.subh.ProductServiceMar25.services;
 
 
 import dev.subh.ProductServiceMar25.dto.CreateProductRequestDto;
+import dev.subh.ProductServiceMar25.exceptions.ProductNotFoundException;
 import dev.subh.ProductServiceMar25.model.Product;
 
 import java.util.List;
@@ -10,7 +11,18 @@ public interface ProductService {
 
     List<Product> getAllProducts() ;
 
-     Product getSingleProduct(long id);
+     Product getSingleProduct(long id) throws ProductNotFoundException;
 
-    Product createProduct(CreateProductRequestDto createProductRequestsDto) ;
+    Product createProduct (String title,
+                          String description,
+                          double price,
+                          String imageUrl,
+                          String category) ;
+
+    Product updateProduct(int id,
+                          String title,
+                          String description,
+                          double price,
+                          String imageUrl,
+                          String category) ;
 }

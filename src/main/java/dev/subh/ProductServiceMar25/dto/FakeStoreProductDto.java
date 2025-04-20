@@ -5,6 +5,8 @@ import dev.subh.ProductServiceMar25.model.Product;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.List;
+
 @Getter
 @Setter
 public class FakeStoreProductDto {
@@ -24,4 +26,5 @@ public class FakeStoreProductDto {
         product.setId(id);
         return product;
     }
+
 }
