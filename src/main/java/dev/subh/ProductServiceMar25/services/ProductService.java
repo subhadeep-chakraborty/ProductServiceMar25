@@ -11,7 +11,7 @@ public interface ProductService {
 
     List<Product> getAllProducts() ;
 
-     Product getSingleProduct(long id) throws ProductNotFoundException;
+     Product getSingleProduct(int id) throws ProductNotFoundException;
 
     Product createProduct (String title,
                           String description,

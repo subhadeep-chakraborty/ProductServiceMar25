@@ -46,7 +46,7 @@ public class FakeStoreProductService implements ProductService {
     }
 
     @Override
-    public Product getSingleProduct(long id) throws ProductNotFoundException {
+    public Product getSingleProduct(int id) throws ProductNotFoundException {
         /* need to call the external
          fakestore product api here
          'https://fakestoreapi.com/products/1'
