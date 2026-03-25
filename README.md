@@ -1,5 +1,5 @@
-**A scalable backend service for an e-commerce platform built using Spring Boot. This project demonstrates a clean layered architecture, use of DTO patterns, and robust exception handling to simulate a production-ready backend system.
-**
+**A scalable backend service for an e-commerce platform built using Spring Boot. This project demonstrates a clean layered architecture, use of DTO patterns, and robust exception handling to simulate a production-ready backend system.**
+
 **Tech Stack:**
 Backend: Spring Boot (Java)
 Database: MySQL
@@ -23,8 +23,8 @@ DTO-based request/response handling
 Centralized exception handling
 Database integration with MySQL
 Unit testing with JUnit and Mockito
-**
-Setup & Run Locally**
+
+**Setup & Run Locally**
 Prerequisites:
 Java 17+
 Maven
